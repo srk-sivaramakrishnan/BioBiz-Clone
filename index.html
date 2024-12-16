@@ -164,7 +164,7 @@
   
 
 <!-- Footer -->
-<footer class="text-center bg-dark text-white py-3">
+<footer class="text-center bg-white text-dark py-3">
   <p>Copyright © 2024 BioBiz. All rights reserved.</p>
 </footer>
 
@@ -189,6 +189,7 @@
 
   .header-text p {
     font-size: 1rem;
+    font-weight: bold;
     color: #333;
     margin-bottom: 15px; /* Proper spacing between paragraphs */
   }
@@ -281,7 +282,7 @@
   }
 
   .btn-view-all {
-    background-color: #008040;
+    background-color: gray;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -291,7 +292,7 @@
   }
 
   .btn-view-all:hover {
-    background-color: #006b29;
+    background-color:rgb(115, 112, 112);
   }
 
   .other-sections {
@@ -318,19 +319,23 @@
   font-size: 1.2rem;
 }
 
+footer {
+  background-color: #f8f9fa; /* Light background color */
+  color: #212529; /* Dark text */
+  padding: 20px 0; /* Padding for top and bottom */
+}
 
-  /* Footer */
-  footer {
-    text-align: center;
-    background-color: #fff;
-    color: #000;
-    padding: 20px;
-    margin-top: 50px;
-  }
+footer p {
+  margin: 0;
+  font-size: 14px; /* Adjust text size */
+  text-align: center;
+}
 
+/* Responsive footer */
+@media (max-width: 768px) {
   footer p {
-    margin: 0;
-    font-size: 1rem;
+    font-size: 12px; /* Smaller font on mobile */
   }
+}
 
 </style>
